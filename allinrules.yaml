@@ -1,15 +1,3 @@
-proxy-providers:
-    Premium-Node:
-        type: http
-        path: ./Nexitally/Premium-Node.yaml
-        url: https://node链接
-        interval: 3600
-        health-check:
-            enable: true
-            url: http://cp.cloudflare.com/generate_204
-            interval: 3600
-
-
 proxy-groups:
 
 - name: Proxy
@@ -137,6 +125,12 @@ rule-providers:
     path: ./RuleSet/Unbreak2.yaml
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
     interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Global.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
+    interval: 86400
   Overwatch:
     type: http
     behavior: classical
@@ -149,12 +143,6 @@ rule-providers:
     path: ./RuleSet/YouTube.yaml
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
     interval: 86400      
-  Global:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Global.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
-    interval: 86400       
   Telegram:
     type: http
     behavior: classical
@@ -267,6 +255,32 @@ rule-providers:
     
     
 rules:
+  - DOMAIN-SUFFIX,atom.io,Proxy
+  - DOMAIN-SUFFIX,dependabot.com,Proxy
+  - DOMAIN-SUFFIX,ghcr.io,Proxy
+  - DOMAIN-SUFFIX,git.io,Proxy
+  - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,Proxy
+  - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,Proxy
+  - DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,Proxy
+  - DOMAIN-SUFFIX,github.blog,Proxy
+  - DOMAIN-SUFFIX,github.com,Proxy
+  - DOMAIN-SUFFIX,github.community,Proxy
+  - DOMAIN-SUFFIX,github.dev,Proxy
+  - DOMAIN-SUFFIX,github.io,Proxy
+  - DOMAIN-SUFFIX,githubapp.com,Proxy
+  - DOMAIN-SUFFIX,githubassets.com,Proxy
+  - DOMAIN-SUFFIX,githubhackathon.com,Proxy
+  - DOMAIN-SUFFIX,githubpreview.dev,Proxy
+  - DOMAIN-SUFFIX,githubstatus.com,Proxy
+  - DOMAIN-SUFFIX,githubuniverse.com,Proxy
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxy
+  - DOMAIN-SUFFIX,myoctocat.com,Proxy
+  - DOMAIN-SUFFIX,npm.community,Proxy
+  - DOMAIN-SUFFIX,npmjs.com,Proxy
+  - DOMAIN-SUFFIX,npmjs.org,Proxy
+  - DOMAIN-SUFFIX,rawgit.com,Proxy
+  - DOMAIN-SUFFIX,rawgithub.com,Proxy
+  - DOMAIN-SUFFIX,thegithubshop.com,Proxy
   - DOMAIN-KEYWORD,evernote,Proxy
   - DOMAIN-KEYWORD,dlercloud,Proxy
   - RULE-SET,Apple,Apple
