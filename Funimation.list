@@ -1,8 +1,9 @@
 DOMAIN-SUFFIX,funimation
 DOMAIN-SUFFIX,funimationnow
+DOMAIN-SUFFIX,funimationnow.com
 DOMAIN-SUFFIX,funimation.com
 DOMAIN-SUFFIX,funimationsvc.com
-DOMAIN-SUFFIX,funimationnow.dadcdigital.com
+DOMAIN-SUFFIX,prod-api-funimationnow.dadcdigital.com
 DOMAIN-SUFFIX,mparticle
 DOMAIN-SUFFIX,mparticle.com
 USER-AGENT,Funimation*
