@@ -1,6 +1,10 @@
 DOMAIN-SUFFIX,shoe.com
 DOMAIN-SUFFIX,showtime.com
 DOMAIN-SUFFIX,showtime.com
+DOMAIN-SUFFIX,showtimeanytime.com
 DOMAIN-SUFFIX,kochava.com
 DOMAIN-SUFFIX,api.kochava.com
+DOMAIN-SUFFIX,control.kochava.com
+DOMAIN,control.kochava.com
+DOMAIN,control.kochava.com
 USER-AGENT,Showtime
