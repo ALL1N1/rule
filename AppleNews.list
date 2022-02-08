@@ -1,6 +1,8 @@
-DOMAIN,apple.comscoreresearch.com
+# Apple News
 DOMAIN,gateway.icloud.com
 DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,apple.news,PROXY
+DOMAIN,apple.comscoreresearch.com
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client-search.apple.com
 DOMAIN,news-client.apple.com
@@ -8,6 +10,5 @@ DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,newsletter-edge.apple.com
 DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,apple.com
 PROCESS-NAME,news
 USER-AGENT,AppleNews*
