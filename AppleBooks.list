@@ -1,0 +1,9 @@
+DOMAIN,buy.itunes.apple.com
+DOMAIN,books.itunes.apple.com
+DOMAIN,bookkeeper.itunes.apple.com
+DOMAIN,se.itunes.apple.com
+DOMAIN-SUFFIX,books-analytics-events.apple.com
+DOMAIN-SUFFIX,books.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+USER-AGENT,AppleBooks*
+PROCESS-NAME,AplleBooks
