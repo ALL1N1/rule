@@ -10,3 +10,4 @@ DOMAIN,newsletter-edge.apple.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,apple.com
 PROCESS-NAME,news
+USER-AGENT,AppleNews*
