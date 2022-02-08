@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,api.hbo.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,api.cdn.hbo.com
+USER-AGENT,HBOMAX*
+PROCESS-NAME,com.hbo.hbonow
