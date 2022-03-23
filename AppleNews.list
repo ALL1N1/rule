@@ -15,6 +15,11 @@ DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,newsletter-edge.apple.com
 DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,itsliveradio.apple.com
+DOMAIN-SUFFIX,aodp-ssl.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,blobstore.apple.com
 PROCESS-NAME,news
 PROCESS-NAME,podcasts
 USER-AGENT,AppleNews*
